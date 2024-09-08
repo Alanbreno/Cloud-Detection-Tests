@@ -1,0 +1,15 @@
+{
+  "_model_class": "FPN",
+  "activation": null,
+  "aux_params": null,
+  "classes": 1,
+  "decoder_dropout": 0.2,
+  "decoder_merge_policy": "add",
+  "decoder_pyramid_channels": 256,
+  "decoder_segmentation_channels": 128,
+  "encoder_depth": 5,
+  "encoder_name": "resnet34",
+  "encoder_weights": "imagenet",
+  "in_channels": 3,
+  "upsampling": 4
+}
